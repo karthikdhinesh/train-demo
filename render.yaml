@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: railops-demo
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /api/health
+    envVars:
+      - key: STAFF_USER
+        value: staff
+      - key: STAFF_PASSWORD
+        generateValue: true

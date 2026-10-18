@@ -1,0 +1,145 @@
+{
+  "trains": [
+    {
+      "id": "22436",
+      "name": "Vande Bharat Express",
+      "from": "New Delhi",
+      "to": "Varanasi Jn",
+      "dep": "06:00",
+      "arr": "14:00",
+      "days": [
+        "Mon",
+        "Tue",
+        "Wed",
+        "Thu",
+        "Fri",
+        "Sat",
+        "Sun"
+      ],
+      "platform": "4",
+      "status": "Delayed",
+      "delay": 18,
+      "last": "Prayagraj Jn",
+      "next": "Varanasi Jn",
+      "progress": 72,
+      "speed": 108
+    },
+    {
+      "id": "12952",
+      "name": "Mumbai Rajdhani Express",
+      "from": "New Delhi",
+      "to": "Mumbai Central",
+      "dep": "16:55",
+      "arr": "08:35",
+      "days": [
+        "Mon",
+        "Tue",
+        "Wed",
+        "Thu",
+        "Fri",
+        "Sat",
+        "Sun"
+      ],
+      "platform": "2",
+      "status": "On time",
+      "delay": 0,
+      "last": "Kota Jn",
+      "next": "Vadodara Jn",
+      "progress": 44,
+      "speed": 121
+    },
+    {
+      "id": "12002",
+      "name": "Shatabdi Express",
+      "from": "Bhopal Jn",
+      "to": "New Delhi",
+      "dep": "15:00",
+      "arr": "23:00",
+      "days": [
+        "Mon",
+        "Tue",
+        "Wed",
+        "Thu",
+        "Fri",
+        "Sat"
+      ],
+      "platform": "1",
+      "status": "On time",
+      "delay": 0,
+      "last": "Jhansi Jn",
+      "next": "Agra Cantt",
+      "progress": 59,
+      "speed": 94
+    },
+    {
+      "id": "12627",
+      "name": "Karnataka Express",
+      "from": "KSR Bengaluru",
+      "to": "New Delhi",
+      "dep": "19:20",
+      "arr": "10:30",
+      "days": [
+        "Mon",
+        "Wed",
+        "Fri",
+        "Sun"
+      ],
+      "platform": "6",
+      "status": "Delayed",
+      "delay": 32,
+      "last": "Guntakal Jn",
+      "next": "Wadi Jn",
+      "progress": 37,
+      "speed": 76
+    }
+  ],
+  "tickets": [
+    {
+      "pnr": "2849104821",
+      "passenger": "Aarav Sharma",
+      "train": "22436",
+      "date": "2026-10-20",
+      "cls": "CC",
+      "status": "Confirmed",
+      "seat": "C4-24 (LB/W)",
+      "age": 29,
+      "gender": "M"
+    },
+    {
+      "pnr": "6492018473",
+      "passenger": "Meera Iyer",
+      "train": "12952",
+      "date": "2026-10-21",
+      "cls": "2A",
+      "status": "Waitlisted",
+      "seat": "Not assigned",
+      "age": "",
+      "gender": ""
+    },
+    {
+      "pnr": "8192049182",
+      "passenger": "Kabir Das",
+      "train": "12002",
+      "date": "2026-10-22",
+      "cls": "CC",
+      "status": "RAC",
+      "seat": "Not assigned",
+      "age": "",
+      "gender": ""
+    },
+    {
+      "pnr": "7391052846",
+      "passenger": "Ananya Rao",
+      "train": "12627",
+      "date": "2026-10-22",
+      "cls": "3A",
+      "status": "Confirmed",
+      "seat": "B2-21",
+      "age": "",
+      "gender": ""
+    }
+  ],
+  "alerts": [],
+  "staff": [],
+  "audit": []
+}
